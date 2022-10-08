@@ -1,4 +1,4 @@
-[![MasterHead](https://media3.giphy.com/media/du3J3cXyzhj75IOgvA/200.webp?cid=ecf05e47zi5z6i812p2opfdt69clka8xpf6bkohbllf9blaj&rid=200.webp&ct=g)
+[![logo](https://media3.giphy.com/media/du3J3cXyzhj75IOgvA/200.webp?cid=ecf05e47zi5z6i812p2opfdt69clka8xpf6bkohbllf9blaj&rid=200.webp&ct=g)
 <h1 align="center">Hi 👋, I'm Gohil Dakshraj</h1>
 <h3 align="center">A passionate web and app developer</h3>
 <img align="right" alt="Coding" width="400" src="https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/200.webp?cid=ecf05e47qlcz8syfjl43y1qdydc3hw67edrionu6e53aopaz&rid=200.webp&ct=g">
