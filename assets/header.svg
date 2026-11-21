@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+  <title id="title">Dakshraj Gohil — Software Engineer</title>
+  <desc id="desc">Backend engineering, distributed data systems, and AI agent evaluation. Connected services illustrate resilient systems.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1423"/><stop offset="1" stop-color="#101b2e"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#26384f" stroke-width=".6" opacity=".35"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1278" height="428" rx="24" fill="url(#bg)" stroke="#28364b"/>
+  <rect x="1" y="1" width="1278" height="428" rx="24" fill="url(#grid)"/>
+  <path d="M1 105V25Q1 1 25 1H248" fill="none" stroke="#7cb8ff" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="52" y="46" width="192" height="29" rx="14.5" fill="#16382e"/>
+    <circle cx="69" cy="60.5" r="4" fill="#a7f3b3"/>
+    <text x="82" y="65" fill="#b9f6ce" font-size="12" letter-spacing="1.4">SOFTWARE ENGINEER</text>
+    <text x="49" y="155" fill="#f1f5f9" font-size="68" font-weight="700" letter-spacing="-2.5">Dakshraj Gohil<tspan fill="#93c5fd">.</tspan></text>
+    <text x="53" y="204" fill="#a8bbd4" font-size="24">I build systems that hold up.</text>
+    <text x="53" y="251" fill="#cbd5e1" font-size="17">Backend engineering</text><circle cx="233" cy="245" r="2" fill="#5b7aa5"/>
+    <text x="247" y="251" fill="#cbd5e1" font-size="17">Distributed data</text><circle cx="391" cy="245" r="2" fill="#5b7aa5"/>
+    <text x="405" y="251" fill="#cbd5e1" font-size="17">AI agent evaluation</text>
+    <path d="M53 294H690" stroke="#2d3f58"/>
+    <text x="53" y="332" fill="#8299b7" font-size="13" letter-spacing="1.2">JAVA / TEMPORAL / SPARK / ICEBERG / PYTHON</text>
+    <text x="53" y="382" fill="#657f9f" font-size="12" letter-spacing="1.6">AHMEDABAD, INDIA</text>
+  </g>
+  <g fill="none" stroke="#44648c" stroke-width="1.5">
+    <path d="M856 124H944V207H1009M944 207H864V290H937M1052 248V290H1071M1095 124H1052V166"/>
+    <path d="M1125 310H1183V207H1094" stroke-dasharray="5 7"/>
+    <circle cx="1052" cy="207" r="100" stroke="#22334c"/><circle cx="1052" cy="207" r="151" stroke="#1d2b40"/>
+  </g>
+  <g font-family="monospace" font-size="12" text-anchor="middle">
+    <rect x="795" y="99" width="124" height="50" rx="10" fill="#14253b" stroke="#405a7a"/>
+    <text x="857" y="129" fill="#b9cce4">INGEST</text>
+    <rect x="1009" y="166" width="86" height="82" rx="19" fill="#152e4b" stroke="#76b3ff" stroke-width="1.5"/>
+    <path d="M1036 194l-10 13 10 13m32-26 10 13-10 13m-11-28-10 38" fill="none" stroke="#a9d2ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1095" y="99" width="122" height="50" rx="10" fill="#14253b" stroke="#405a7a"/>
+    <text x="1156" y="129" fill="#b9cce4">EVALUATE</text>
+    <rect x="802" y="265" width="135" height="50" rx="10" fill="#14253b" stroke="#405a7a"/>
+    <text x="869" y="295" fill="#b9cce4">ORCHESTRATE</text>
+    <rect x="1071" y="265" width="111" height="50" rx="10" fill="#16382e" stroke="#4d8c70"/>
+    <text x="1126" y="295" fill="#b9f6ce">RECOVER</text>
+  </g>
+  <g fill="#93c5fd"><circle cx="944" cy="124" r="4"/><circle cx="944" cy="207" r="4"/></g>
+  <text x="1052" y="382" fill="#657f9f" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="2">DESIGNED FOR THE REAL WORLD</text>
+</svg>
