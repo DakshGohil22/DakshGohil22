@@ -1,23 +1,17 @@
-# API simulation and developer tooling
+# API mocking platform
 
-**Professional work at Crest Data · Java · Spring Boot · Redis · Docker · MCP**
+At Crest Data, I designed and built a mock server that creates endpoints from OpenAPI 3.0 and Postman specifications. Frontend and QA teams use it when they need to work with an API before the backend is ready.
 
-I designed and built an API mocking platform that turns OpenAPI 3.0 and Postman specifications into stateful mock endpoints. It gives frontend and QA teams useful API behavior while backend implementation is still in progress.
+The platform supports:
 
-## Beyond static responses
+- State shared across multiple APIs.
+- Weighted and randomized responses.
+- Conditional responses and rate limiting.
+- Error scenarios such as malformed JSON and oversized payloads.
+- MCP integration to help generate endpoints and example responses from user requests.
 
-- Weighted and randomized responses for varied behavior.
-- Cross-API statefulness for flows that span multiple endpoints.
-- Conditional logic and rate limiting.
-- Negative scenarios including malformed JSON and oversized payloads.
-- An AI-assisted layer using MCP to generate endpoints and example responses from user intent.
+It was adopted across the organization's QA teams and is also used by customers. It reduced the work involved in creating and maintaining test fixtures.
 
-## Adoption
+**Stack:** Java, Spring Boot, Redis, Docker, MCP.
 
-The platform was adopted across the organization's QA teams and used by Crest Data customers. It reduced the work involved in building and maintaining test fixtures and made failure scenarios easier to exercise.
-
-## What I care about
-
-A useful mock captures the behavior of an API: state transitions, conditions, and failures. Returning a successful JSON response is only the starting point.
-
-[← Back to profile](../README.md)
+[Back to profile](../README.md)

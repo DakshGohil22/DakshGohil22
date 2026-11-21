@@ -1,28 +1,19 @@
-# Adversarial evaluation for LLM agents
+# LLM agent evaluations
 
-**Independent applied AI work · Python · Evaluation harnesses · Grader design · Behavioral analysis · Access control**
+Alongside my backend work, I've worked independently on evaluation environments and graders for LLM agents.
 
-I design evaluation environments that test whether an LLM agent can identify a problem, fix its cause, and leave the system in a durable, correct state.
+Much of this work involves reading agent transcripts to understand how a task is being solved. Sometimes an agent finds a shortcut that satisfies a grader without fixing the underlying problem. I use those observations to update the environment or grading logic.
 
-## Calibrating difficulty from behavior
+## Examples of this work
 
-I analyzed behavioral traces across 10-run rollout batches to identify shortcuts and recalibrate tasks. In that work, agent mean scores moved from a saturated **0.98 to below 0.60**, while preserving variance across **five independently graded criteria**.
+- Analyzed batches of 10 rollouts to find shortcuts and adjust task difficulty. In those evaluation batches, mean scores went from 0.98 to below 0.60 across five grading criteria.
+- Built graders that trigger reconciliation during a run to check whether a fix holds after the system processes it again.
+- Added similar-looking data pipelines as distractors so agents have to identify the correct target.
+- Reviewed proposed task changes against earlier agent traces and rejected changes that did not improve the evaluation.
+- Fixed a privilege-escalation weakness in a sandboxed environment through RBAC and admission-control changes.
 
-These figures describe the evaluation batches I worked on, rather than a general ranking of models.
+The scores above refer to the specific evaluation batches I worked on, not a general comparison of models.
 
-## Testing durable fixes
+**Tools:** Python, evaluation harnesses, grading systems, behavioral trace analysis, RBAC.
 
-I built process-based graders that trigger reconciliation cycles during evaluation. This helps distinguish root-cause fixes from changes that temporarily satisfy an observable snapshot.
-
-## Adversarial environment design
-
-- Used multiple semantically similar distractor pipelines to test discrimination across simultaneous dimensions.
-- Reviewed agent transcripts to identify failure modes before shipping evaluation changes.
-- Rejected difficulty changes that added friction without improving discrimination.
-- Closed a privilege-escalation weakness in a sandboxed evaluation environment through RBAC and admission-control changes.
-
-## What I care about
-
-A benchmark is useful when its reward aligns with the behavior it intends to measure. I focus on making that alignment harder to exploit and easier to inspect.
-
-[← Back to profile](../README.md)
+[Back to profile](../README.md)

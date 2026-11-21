@@ -1,65 +1,34 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Dakshraj Gohil — Backend engineering, distributed data systems, and AI agent evaluation" width="100%" />
-</p>
+# Hi, I'm Dakshraj
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/dakshrajsinh-gohil-32b7b5208"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-2563EB?style=flat-square" alt="Connect on LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:dakshrajsinhgohil22@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-163D32?style=flat-square" alt="Email Dakshraj" /></a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Based_in-Ahmedabad,_India-30363D?style=flat-square" alt="Based in Ahmedabad, India" />
-</p>
+I'm a Software Engineer at **Crest Data**, based in Ahmedabad, India.
 
-### Systems that recover. Evaluations that reveal.
+Most of my work is in Java and Spring Boot. I work on data ingestion, backend services, and the pipelines behind engineering metrics. I've spent a lot of time with Temporal workflows, Spark, Iceberg, and SQL, including debugging data issues in production.
 
-I'm **Dakshraj**, a Software Engineer at **Crest Data**, working on backend services, distributed ingestion, and data platforms. I build the machinery behind reliable engineering insights: durable workflows, resilient connectors, efficient queries, and systems that recover when something breaks.
+I also work on LLM agent evaluations in Python. This involves building test environments and graders, reading agent traces, and checking for shortcuts that make a score look better without actually solving the task.
 
-I also design **adversarial evaluations for LLM agents**—studying behavior, closing reward-hacking shortcuts, and testing whether an agent fixed a root cause or only changed what a grader can see.
+[LinkedIn](https://www.linkedin.com/in/dakshrajsinh-gohil-32b7b5208) | [Email](mailto:dakshrajsinhgohil22@gmail.com)
 
-<p>
-  <img src="assets/impact.svg" alt="Selected experience: corrected more than 30 million production records; implemented more than 200 cloud security controls; designed evaluations with five independent grading criteria" width="100%" />
-</p>
+## Some things I've worked on
 
-### Selected engineering work
+- **Data ingestion and engineering metrics:** ServiceNow and Bitbucket integrations, Temporal workflows, Spark and Iceberg jobs, and SQL performance improvements. [More about this work](work/data-systems.md)
+- **API mocking:** A platform that creates stateful mock APIs from OpenAPI and Postman specs, with failure scenarios and MCP integration. Used by QA teams and customers. [More about the platform](work/api-simulation.md)
+- **Cloud integrations and security:** A GCS connector that publishes to Kafka, plus resource collectors and detection queries for cloud security controls. [More about this work](work/cloud-security.md)
+- **Agent evaluations:** Adversarial tasks, process-based grading, and analysis of agent behavior to find weaknesses in an evaluation. [More about evaluations](work/agent-evaluation.md)
 
-| Area | What I've built | Explore |
-| :--- | :--- | :--- |
-| **Distributed data platforms** | Temporal-orchestrated ServiceNow and Bitbucket ingestion; Spark + Iceberg transformations; engineering delivery metrics and SQL performance improvements. | [Data systems →](work/data-systems.md) |
-| **API simulation & developer tooling** | A stateful mock server built from OpenAPI and Postman specifications, with conditional responses, negative scenarios, and MCP-assisted endpoint generation. | [API tooling →](work/api-simulation.md) |
-| **Cloud integrations & security** | A GCS-to-Kafka connector and multi-cloud harvesting and detection logic for 200+ security controls across AWS, GCP, Azure, and StackIt. | [Cloud engineering →](work/cloud-security.md) |
-| **AI agent evaluation** | Adversarial environments, process-based graders, behavioral trace analysis, and defenses against specification gaming. | [Evaluation methodology →](work/agent-evaluation.md) |
+These pages are short summaries of my work. Most of the professional code lives in private company repositories.
 
-<sub>These write-ups summarize professional and independent work. The linked pages describe the engineering; they do not contain employer source code.</sub>
+## Technologies I use
 
-### My engineering toolkit
-
-| Layer | Technologies & practice |
+| Area | Tools |
 | :--- | :--- |
-| **Backend** | Java · Spring Boot · REST APIs · Microservices · C++ |
-| **Workflows & data** | Temporal · Apache Spark · Apache Iceberg · Kafka |
-| **Storage & search** | PostgreSQL · SQL optimization · Redis · Elasticsearch |
-| **Cloud & delivery** | GCP · Docker · Jenkins · Git · AWS Secrets Manager & KMS |
-| **Cloud integration** | OAuth 2.0 · Hibernate / JPA · Pagination · Incremental ingestion · Rate-limit handling |
-| **AI & evaluation** | Python · LLM agent benchmarks · Grader design · Behavioral trace analysis · MCP · RBAC |
-| **Quality** | JUnit · Python test suites · Integration testing · Failure-mode analysis |
+| Backend | Java, Spring Boot, REST APIs, Hibernate/JPA |
+| Data and workflows | Temporal, Apache Spark, Apache Iceberg, Kafka |
+| Databases and search | PostgreSQL, Redis, Elasticsearch |
+| Cloud and development | GCP, Docker, Jenkins, Git, AWS Secrets Manager and KMS |
+| Testing and evaluation | Python, JUnit, integration tests, LLM evaluation harnesses, MCP |
 
-### Problems I like working on
+## Background
 
-- **Durable execution:** workflows that retry, checkpoint, and resume without silently losing data.
-- **Data correctness at scale:** schema evolution, correlation defects, and expensive metric queries.
-- **Trustworthy agents:** evaluations that reward durable fixes and resist shortcuts.
-- **Useful developer tools:** making APIs easier to simulate, integrate, and test under failure.
+I studied Computer Science at CHARUSAT and graduated with a CGPA of 9.35/10. Before Crest Data, I interned at Prolog Infotech, where I worked on an airline booking application, and at Raven Technolabs, where I worked on a tiles marketplace app.
 
-### A little more about me
-
-**B.Tech in Computer Science · CHARUSAT · 9.35/10 CGPA**<br />
-NPTEL Operating System Fundamentals **Top 5%** · Design and Analysis of Algorithms · **SSIP grant recipient** for the student innovation project *Bull Run*.
-
-Earlier, I worked on an airline booking application at **Prolog Infotech** and a tiles marketplace with a camera preview feature at **Raven Technolabs**.
-
----
-
-<p align="center">
-  <b>Building something that needs to work beyond the happy path?</b><br />
-  <a href="mailto:dakshrajsinhgohil22@gmail.com">Let's talk engineering.</a>
-</p>
+I received an SSIP grant for **Bull Run**, a student innovation project, and placed in the top 5% in NPTEL's Operating System Fundamentals course.
